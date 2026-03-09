@@ -1,0 +1,10 @@
+tenant_id: "your-tenant-id-guid"
+client_id: "your-app-client-id-guid"
+
+# Keep scopes as default unless you have a specific need to limit them.
+scopes:
+  - "Policy.Read.All"
+  - "DeviceManagementManagedDevices.Read.All"
+  - "DeviceManagementConfiguration.Read.All"
+  - "DeviceManagementApps.Read.All"
+  - "Group.Read.All"
